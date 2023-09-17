@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+li{
+    list-style: none;
+}
+
+#wrap{
+    width: 100%;
+    margin: auto;
+}
+header{
+    width: 100%;
+}
+.headerbox{
+    width: 100%;
+    max-width: 1400px;
+    height: 12.8rem;
+    position: relative;
+    margin: auto;
+}
+.inner{
+    width: 100%;
+    height: 70px;
+}
+.innerbox{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.gnb{
+    width: 100%;
+    height: 60px;
+    /* background-color: yellow; */
+    display: flex;
+}
+.logobox{
+    width: 100%;
+    border: 1px solid black;
+    
+}
+.logo{
+    width: 27.2rem;
+    height: 3rem;
+    position: absolute;
+    background-size: 27.2rem 3rem;
+    top: 2rem;   
+}
+.search{
+    width: 100px;
+    height: 100px;
+    background-size: 1rem
+    position: absolute;
+    top: 2rem;
+    right: 3rem;
+}
+
+.gnb{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gnb_li{
+    gap: 10rem;
+    margin-left: 7.5rem;
+    font-weight: 500;
+    padding: 1.2rem 2rem;
+    display: flex;
+}
+.mainimg{
+    width: 100%;
+    height: 440px;
+    display: flex;
+    background: url(./image/main_bg.jpg) center repeat;
+    gap: 2rem;
+}
+
+.imgbox{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 200px;
+    right:450px;
+    background-color: red;
+    z-index: 2;
+    gap: 2rem;
+}
+.imgbox1{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 200px;
+    right: 880px;
+    background-color: blue;
+    z-index: 1;
+}
+
+.container{
+    width: 100%;
+    height: 200px;
+    background: beige;
+    position: relative;
+}
+.ca1{
+    width: 100%;
+    background: #f5f6fa;
+    display: flex;
+    padding: 120px 0 10px;
+}
+.ca1_1{
+    margin: 0 auto 50px;
+    width: 624px;
+    height: 100px;
+    display: flex;
+    align-items: center; 
+    gap: .1rem;
+}
+.ca1box{
+    width: 500px;
+    height: 60px;
+    background-color: rgb(140, 140, 131);
+}
+.ca1boxs{
+    width: 150px;
+    height: 60px;
+    background-color: rgb(243, 243, 25);
+}
+
+.ca2{
+    background: #f5f6fa;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.ca2_box{
+    width: 227px;
+    height: 243px;
+    background-color: red;
+}
+.ca3{
+    background: #fff;
+}
+.ca4{
+    background: #f5f6fa;
+}
+
+footer{
+    width: 100%;
+    height: 300px;
+    background: rgb(0, 0, 0);
+}

@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+
+/* font */
+@font-face {
+    font-family: 'notokrBold';
+    src: url('/assets/fonts/notokr-bold.eot');
+    src: url('/assets/fonts/notokr-bold.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/notokr-bold.woff2') format('woff2'),
+         url('/assets/fonts/notokr-bold.woff') format('woff'),
+         url('/assets/fonts/notokr-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'notokrMedium';
+    src: url('/assets/fonts/notokr-medium.eot');
+    src: url('/assets/fonts/notokr-medium.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/notokr-medium.woff2') format('woff2'),
+         url('/assets/fonts/notokr-medium.woff') format('woff'),
+         url('/assets/fonts/notokr-medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'notokrRegular';
+    src: url('/assets/fonts/notokr-regular.eot');
+    src: url('/assets/fonts/notokr-regular.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/notokr-regular.woff2') format('woff2'),
+         url('/assets/fonts/notokr-regular.woff') format('woff'),
+         url('/assets/fonts/notokr-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+ font-family: 'NanumSquare';
+ font-weight: 400;
+ src: url('/assets/fonts/NanumSquareR.eot');
+ src: url('/assets/fonts/NanumSquareR.eot?#iefix') format('embedded-opentype'),
+      url('/assets/fonts/NanumSquareR.woff') format('woff'),
+      url('/assets/fonts/NanumSquareR.ttf') format('truetype');
+}
+@font-face {
+ font-family: 'NanumSquare';
+ font-weight: 700;
+ src: url('/assets/fonts/NanumSquareB.eot');
+ src: url('/assets/fonts/(NanumSquareB.eot?#iefix') format('embedded-opentype'),
+      url('/assets/fonts/NanumSquareB.woff') format('woff'),
+      url('/assets/fonts/NanumSquareB.ttf') format('truetype');
+}
+@font-face {
+ font-family: 'NanumSquare';
+ font-weight: 800;
+ src: url('/assets/fonts/NanumSquareEB.eot');
+ src: url('/assets/fonts/NanumSquareEB.eot?#iefix') format('embedded-opentype'),
+      url('/assets/fonts/NanumSquareEB.woff') format('woff'),
+      url('/assets/fonts/NanumSquareEB.ttf') format('truetype');
+}
+@font-face {
+ font-family: 'NanumSquare';
+ font-weight: 300;
+ src: url('/assets/fonts/NanumSquareL.eot');
+ src: url('/assets/fonts/NanumSquareL.eot?#iefix') format('embedded-opentype'),
+      url('/assets/fonts/NanumSquareL.woff') format('woff'),
+      url('/assets/fonts/NanumSquareL.ttf') format('truetype');
+}
+
+
+html{font-size:10px;}
+body{font-size:1.65rem;}
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video{
+margin:0;
+padding:0;
+border:0;
+background:transparent;
+
+}
+
+a:link,
+a:visited,
+a:active,
+a:hover{text-decoration:none;color:#000;}
+
+*{margin:0;padding:0;}
+ul, ol, li{list-style:none;}
+img, hr{border:none;}
+img{vertical-align:top;border:0px;max-width:100%;}
+h1, h2, h3, h4, h5, h6 {line-height:1.2;}
+table{border-collapse:collapse;border-spacing:0;width:100%;}
+table td img{vertical-align:middle;}
+caption,legend{font-size:0;line-height:0;overflow:hidden;width:0;height:0;text-indent:-9999999px;}
+
+button{cursor:pointer;}
+
+p, div, ul, li, dl, dt, dd, ol, a, em, strong, fieldset, textarea, input, select, span, table, th, td, address,
+cite, h1, h2, h3, h4, h5, h6{color: #000; font-family:'notokrRegular', sans-serif;line-height:1.6;letter-spacing:-.5px; font-size: 2rem;}
+
+.hide{position:absolute;width:1px;height:1px;top:-9999px;left:-9999px;overflow:hidden;font-size:0;}
+
+/* skip to navigation */
+#skipNav a{position:absolute;top:-999999px;left:-999999px}
+#skipNav a:focus{display:block;top:0;left:0;z-index:999999;width:100%;height:40px;background-color:#21273f;color:#fff;text-align:center;font-size:16px;line-height:40px}
