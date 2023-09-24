@@ -9,6 +9,9 @@ html {
 li{
     list-style: none;
 }
+.flexbox{
+    display: flex;
+}
 
 #wrap{
     width: 100%;
@@ -29,11 +32,19 @@ header{
     height: 70px;
 }
 .innerbox{
-    width: 100%;
+    width: 20%;
     height: 70px;
     display: flex;
-    justify-content: flex-end;
     align-items: center;
+    position: absolute;
+    right: 10rem;
+    justify-content: space-around;
+    font-size: 1.6rem;
+    top: .5rem;
+    right: .5rem;
+}
+.innerbox li a{
+    font-size: 1.6rem;
 }
 .gnb{
     width: 100%;
@@ -43,23 +54,34 @@ header{
 }
 .logobox{
     width: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     
 }
 .logo{
-    width: 27.2rem;
     height: 3rem;
     position: absolute;
-    background-size: 27.2rem 3rem;
     top: 2rem;   
 }
+.logo img{
+    width: 250px;
+    background-size: 27.2rem 3rem;
+}
+
 .search{
+    display: flex;
     width: 100px;
     height: 100px;
-    background-size: 1rem
-    position: absolute;
-    top: 2rem;
-    right: 3rem;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: .5rem;
+}
+.search img{
+    height: 20px;
+    width: 20px;
+}
+.cearch_img{
+    justify-content: space-around;
 }
 
 .gnb{
@@ -78,7 +100,8 @@ header{
     width: 100%;
     height: 440px;
     display: flex;
-    background: url(./image/main_bg.jpg) center repeat;
+    background: url(./image/main_bg.jpg) center no-repeat;
+    background-color: #21273f;
     gap: 2rem;
 }
 
@@ -87,8 +110,8 @@ header{
     width: 400px;
     height: 400px;
     top: 200px;
-    right:450px;
-    background-color: red;
+    right:420px;
+    /* background-color: red; */
     z-index: 2;
     gap: 2rem;
 }
@@ -97,9 +120,16 @@ header{
     width: 400px;
     height: 400px;
     top: 200px;
-    right: 880px;
-    background-color: blue;
+    right: 850px;
+    /* background-color: blue; */
     z-index: 1;
+}
+.imgbox2{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 350px;
+    right: 280px;
 }
 
 .container{
@@ -147,6 +177,32 @@ header{
 }
 .ca3{
     background: #fff;
+    width: 100%;
+    height: 800px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 100px 0;
+}
+.ca3_text{
+    border: 1px solid black;
+}
+.ca3_text h3{
+    font-weight: 400;
+}
+.ca3_box{
+    width: 100%;
+    height: 800px;
+    border: 1px solid black;
+}
+.ca3_box1{
+    width: 50%;
+    height: 300px;
+    border: 1px solid black;
+}
+.ca3_box2{
+    width: 30%;
+    height: 500px;
+    border: 1px solid black;
 }
 .ca4{
     background: #f5f6fa;

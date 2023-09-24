@@ -76,7 +76,6 @@ footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video{
 margin:0;
 padding:0;
 border:0;
-background:transparent;
 
 }
 
@@ -87,8 +86,8 @@ a:hover{text-decoration:none;color:#000;}
 
 *{margin:0;padding:0;}
 ul, ol, li{list-style:none;}
-img, hr{border:none;}
-img{vertical-align:top;border:0px;max-width:100%;}
+img, hr{border:none; }
+img{vertical-align:top;border:0px; }
 h1, h2, h3, h4, h5, h6 {line-height:1.2;}
 table{border-collapse:collapse;border-spacing:0;width:100%;}
 table td img{vertical-align:middle;}
