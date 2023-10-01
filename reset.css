@@ -96,7 +96,7 @@ caption,legend{font-size:0;line-height:0;overflow:hidden;width:0;height:0;text-i
 button{cursor:pointer;}
 
 p, div, ul, li, dl, dt, dd, ol, a, em, strong, fieldset, textarea, input, select, span, table, th, td, address,
-cite, h1, h2, h3, h4, h5, h6{color: #000; font-family:'notokrRegular', sans-serif;line-height:1.6;letter-spacing:-.5px; font-size: 2rem;}
+cite, h1, h2, h3, h4, h5, h6{color: #000; font-family:'notokrRegular', sans-serif;line-height:1.6;letter-spacing:-.5px; font-size: 2rem; line-height: 6rem;}
 
 .hide{position:absolute;width:1px;height:1px;top:-9999px;left:-9999px;overflow:hidden;font-size:0;}
 

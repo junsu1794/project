@@ -46,6 +46,14 @@ header{
 .innerbox li a{
     font-size: 1.6rem;
 }
+.engbox{
+    width: 46px;
+    height: 46px;
+    border-radius: 100%;
+    background: #21273f url(./image/iconEng.png) center no-repeat;
+    background-size: 22px 22px;
+    cursor: pointer;
+}
 .gnb{
     width: 100%;
     height: 60px;
@@ -74,7 +82,7 @@ header{
     align-items: center;
     justify-content: space-around;
     position: relative;
-    top: .5rem;
+    top: 1.8rem;
 }
 .search img{
     height: 20px;
@@ -124,12 +132,26 @@ header{
     /* background-color: blue; */
     z-index: 1;
 }
+
 .imgbox2{
     width: 100px;
     height: 100px;
     position: absolute;
     top: 350px;
+    left: 850px;
+}
+.imgbox3{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 350px;
     right: 280px;
+}
+
+.sec1{
+    width: 100%;
+    height: 600px;
+    padding: 50px 0;
 }
 
 .container{
@@ -142,7 +164,7 @@ header{
     width: 100%;
     background: #f5f6fa;
     display: flex;
-    padding: 120px 0 10px;
+    padding: 60px 0 10px;
 }
 .ca1_1{
     margin: 0 auto 50px;
@@ -151,16 +173,31 @@ header{
     display: flex;
     align-items: center; 
     gap: .1rem;
+    font-size: 2.1rem;
+    text-align: center;
 }
 .ca1box{
     width: 500px;
     height: 60px;
-    background-color: rgb(140, 140, 131);
+    background-color:#f0f0f0;
 }
+.ca1box1{
+    width: 500px;
+    height: 60px;
+    background-color:#383d53;
+}
+.ca1box1 div{
+    color: #fff;
+}
+
 .ca1boxs{
     width: 150px;
     height: 60px;
-    background-color: rgb(243, 243, 25);
+    background-color: #f0f0f0;
+}
+.ca1boxs div{
+    font-size: 5rem;
+    font-weight: 100;
 }
 
 .ca2{
@@ -168,41 +205,113 @@ header{
     display: flex;
     justify-content: center;
     gap: 3rem;
+    height: 350px;
 }
 
+
+.ca2_box2{
+    width: 69px;
+    height: 69px;
+    background-color: #383d53;
+    padding: 0 15px;
+    display: table;
+    color: #fff;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+}
 .ca2_box{
-    width: 227px;
-    height: 243px;
-    background-color: red;
+    padding: 30px 20px;
+    width: 200px;
+    height: 180px;
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    text-align: center;
+    position: relative;
+}
+
+.ca3_text p{
+    font-size: 1.8rem;
+    color: #333;
+}
+.ca3_text span{
+    font-size: 4.4rem;
+}
+.textlight{
+    color: #333;
+    font-weight: 200;
+    line-height: 1;
+
+}
+.ca3_img{
+    position: relative;
 }
 .ca3{
     background: #fff;
     width: 100%;
     height: 800px;
     text-align: center;
-    border: 1px solid black;
-    padding: 100px 0;
+    padding: 50px 0;
 }
-.ca3_text{
-    border: 1px solid black;
-}
+
 .ca3_text h3{
     font-weight: 400;
 }
 .ca3_box{
     width: 100%;
-    height: 800px;
-    border: 1px solid black;
+    height: 200px;
+    /* border: 1px solid black; */
+
 }
 .ca3_box1{
-    width: 50%;
-    height: 300px;
-    border: 1px solid black;
+    position: absolute;
+    top: 25%;
+    left: 18%;
+    width: 540px;
+    height: 400px;
+    border: 1px solid #e5e5e5;
+    background-color: #fff;
+    box-shadow: 5px 5px 10px 0 rgba(33, 39, 63, .35);
+    padding: 25px 60px;
+    text-align: initial;
+    z-index: 1;
+}
+.headtxt{
+    margin-bottom: 30px;
+    color: #333;
+    font-size: 3.6rem;
+    line-height: 1.4;
+}
+.midtxt{
+    margin-bottom: 25px;
+    color: #777;
+    font-size: 15px;
+    line-height: 1.4;
 }
 .ca3_box2{
+    position: absolute;
+    top: 20%;
+    left: 45%;
     width: 30%;
     height: 500px;
-    border: 1px solid black;
+}
+.ca3_botbox{
+    width: 100%;
+    height: 700px;
+    background: url(/assets/images/main/sec02_bg.jpg) repeat-x #f5f6fa;
+    display: flex;
+}
+.ca3bigbox{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+
+.ca3box{
+    width: 300px;
 }
 .ca4{
     background: #f5f6fa;
@@ -210,6 +319,6 @@ header{
 
 footer{
     width: 100%;
-    height: 300px;
-    background: rgb(0, 0, 0);
+    height: 500px;
+    background: #1f222b;
 }
