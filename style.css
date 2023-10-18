@@ -194,11 +194,15 @@ header{
     width: 150px;
     height: 60px;
     background-color: #f0f0f0;
+   
 }
-.ca1boxs div{
-    font-size: 5rem;
+/* .ca1boxs span{
+    font-size: 1rem;
     font-weight: 100;
-}
+    text-indent: -20000px;
+    margin-left: 312px;
+
+} */
 
 .ca2{
     background: #f5f6fa;
@@ -213,12 +217,19 @@ header{
     width: 69px;
     height: 69px;
     background-color: #383d53;
-    padding: 0 15px;
     display: table;
     color: #fff;
     position: absolute;
     top: -20px;
     left: -20px;
+}
+.ca2_box2 span{
+    font-size: 1.6rem;
+    color: #fff;
+    display: table-cell;
+    line-height: 1.4;
+    vertical-align: middle;
+    padding: 0 15px;
 }
 .ca2_box{
     padding: 30px 20px;
@@ -297,22 +308,60 @@ header{
 }
 .ca3_botbox{
     width: 100%;
-    height: 700px;
+    height: 900px;
     background: url(/assets/images/main/sec02_bg.jpg) repeat-x #f5f6fa;
+
+}
+.ca3_botbox1{
+   
+    margin: 0 auto;
+    padding-top: 40px;
+    max-width: 1200px;
     display: flex;
+    align-items: center;
+  
 }
 .ca3bigbox{
-    width: 100%;
     height: 600px;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
 }
 
-
-.ca3box{
-    width: 300px;
+/* span */
+.span_box{
+    display: inline-block;
+    margin-bottom: 2.5rem;
+    padding-bottom: 1rem;
+    width: 5.7rem;
+    border-bottom: 2px solid #009a57;
+    font-size: 1.6rem;
+    color: #009a57;
+    line-height: 1;
 }
+.strong_box{
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    display: block;
+    line-height: 1.4;
+    height: 4.7rem;
+    overflow: hidden;
+    color: #333;
+}
+.strong_text{
+    font-size: 1.4rem;
+    line-height: 1;
+    color: #808080;
+}
+.pbox{
+    display: block;
+    color: #383d53;
+    font-size: 1.4rem;
+    margin-bottom: 2.5rem;
+}
+
+
 .ca4{
     background: #f5f6fa;
 }
