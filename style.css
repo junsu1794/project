@@ -131,10 +131,10 @@ header {
 
 .imgbox {
     position: absolute;
-    width: 400px;
-    height: 400px;
-    top: 200px;
-    right: 420px;
+    width: 350px;
+    height: 350px;
+    top: 20%;
+    right: 17%;
     /* background-color: red; */
     z-index: 2;
     gap: 2rem;
@@ -142,10 +142,10 @@ header {
 
 .imgbox1 {
     position: absolute;
-    width: 400px;
-    height: 400px;
-    top: 200px;
-    right: 850px;
+    width: 350px;
+    height: 350px;
+    top: 20%;
+    right: 40%;
     /* background-color: blue; */
     z-index: 1;
 }
@@ -157,6 +157,17 @@ header {
     top: 350px;
     left: 850px;
 }
+.imgbox2{
+    position: absolute;
+    top: 40%;
+    left: 38&;
+    width: 27px;
+    height: 54px;
+    border: 0;
+    color: transparent;
+    transform: translateY(-50%);
+    background: url(./image/btn_arr_prev.png) center center no-repeat;
+}
 
 .imgbox3 {
     width: 100px;
@@ -165,11 +176,21 @@ header {
     top: 350px;
     right: 280px;
 }
+.imgbox3{
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    width: 27px;
+    height: 54px;
+    border: 0;
+    color: transparent;
+    transform: translateY(-50%);
+    background: url(./image/btn_arr_next.png) center center no-repeat;
+}
 
 .sec1 {
     width: 100%;
     height: 600px;
-    padding: 50px 0;
 }
 
 .container {
@@ -187,7 +208,7 @@ header {
 }
 
 .ca1_1 {
-    margin: 0 auto 50px;
+    margin: 20px auto 50px;
     width: 624px;
     height: 100px;
     display: flex;
@@ -303,6 +324,34 @@ header {
     position: relative;
 }
 
+.arrbox{
+    position: absolute;
+    right: 13%;
+}
+.arrbox_prev{
+    position: absolute;
+    top: -25px;
+    right: 55px;
+    width: 55px;
+    height: 25px;
+    border: 0;
+    color: transparent;
+    background: url(./image/btn_arr_prev_s.png) center no-repeat;
+    position: absolute;
+    z-index: 1;
+    border-right: 1px solid black;
+}
+.arrbox_next{
+    position: absolute;
+    top: -25px;
+    width: 55px;
+    height: 25px;
+    border: 0;
+    right: 0;
+    color: transparent;
+    background: url(./image/btn_arr_next_s.png) center no-repeat;
+}
+
 .ca3 {
     background: #fff;
     width: 100%;
@@ -324,10 +373,10 @@ header {
 
 .ca3_box1 {
     position: absolute;
-    top: 25%;
+    top: 10%;
     left: 18%;
     width: 540px;
-    height: 400px;
+    height: 300px;
     background-color: #fff;
     box-shadow: 5px 5px 10px 0 rgba(33, 39, 63, .35);
     padding: 25px 60px;
@@ -352,7 +401,7 @@ header {
 
 .ca3_box2 {
     position: absolute;
-    top: 20%;
+    top: 2%;
     left: 45%;
     width: 30%;
     height: 500px;
@@ -360,7 +409,7 @@ header {
 
 .ca3_botbox {
     width: 100%;
-    height: 900px;
+    height: 700px;
     background:  url(/assets/images/main/sec02_bg.jpg) repeat-x #f5f6fa;
     padding: 50px 0;
 }
@@ -380,7 +429,7 @@ header {
 }
 
 .ca3bigbox {
-    height: 700px;
+    height: 500px;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -398,7 +447,7 @@ header {
     float: left;
     width: 680px;
     display: flex;
-    padding-left: 15%;
+    padding-left: 12%;
 }
 .link_box>div{
     float: left;
@@ -446,7 +495,7 @@ header {
 .link_tabbox{
     float: right;
     margin-top: 1%;
-    padding-right: 17%;
+    padding-right: 13%;
     position: relative;
     width: 700px;
 }
