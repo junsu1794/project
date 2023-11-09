@@ -23,9 +23,9 @@ $('.slide .stop').on('click', function (e) {
 });
 
 $('.notice_banner').slick({
-  slidesToShow: 1,
-	autoplay: true,
+	autoplay: false,
 	autoplaySpeed: 2000,
+	draggable:false,
   prevArrow:$('.control_box span.prev'),
   nextArrow:$('.control_box span.next')
 });
