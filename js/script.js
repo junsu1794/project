@@ -40,3 +40,26 @@ $('.notice_banner_wrap .stop').on('click', function (e) {
 		$(this).removeClass('on');
 	}
 });
+
+
+// circle
+function animationChart() {
+	progressWrap.each(function () {
+		const item = $(this);
+		const title = item.find('span');
+		const targetNum = title.attr('counter');
+		const circle = item.find('circle');
+		$({ rate: 0 }).animate(
+			{ rate: targetNum },
+			{
+				duration: 1500,
+				progress: function () {
+					let now = this.rate;
+					let amount = 630 - (630 * now) / 100;
+					title.text(Math.floor(now));
+					circle.css({strokeDashoffset:amount})
+				},
+			}
+		)
+	});
+}
