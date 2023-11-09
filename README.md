@@ -11,7 +11,7 @@
 ## 프로토타입
 
 [🔗 피그마 프토로타입 보러가기](
-https://www.figma.com/proto/KORYouFtM2jiMGh8kWxd5Y/portfolio?page-id=238%3A619&type=design&node-id=446-131&viewport=-781%2C1217%2C0.14&t=mIef07XgZEm6Fbg3-1&scaling=min-zoom&mode=design)
+https://www.figma.com/proto/WfFTNOjtuvJJW3XnBtY26l/%EC%95%84%EB%A5%B4%EC%BD%94?page-id=0%3A1&type=design&node-id=15-26&viewport=-982%2C272%2C0.25&t=9Ld0YRsbqllOXvWZ-1&scaling=min-zoom&mode=design)
 
 
 ## 정보구조도
