@@ -439,8 +439,8 @@ header {
 
 /* ca5 */
 .ca5 {
-	padding: 50px 0;
 	min-height: 630px;
+	padding-top: 50px;
 }
 
 .ca5 .flex {
@@ -669,6 +669,9 @@ header {
 	color: rgba(255, 255, 255, 0.5);
 }
 
+.main_footer{
+	text-align: center;
+}
 .slider {
 	width: 65%;
 	position: relative;
