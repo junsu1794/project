@@ -645,7 +645,6 @@ header {
 
 .footer_top {
 	background-color: #3b4054;
-	padding: 1.6rem 0;
 }
 
 .footer_inner {
@@ -655,9 +654,19 @@ header {
 	position: relative;
 	box-sizing: border-box;
 }
+.select_text{
+	color: rgba(255, 255, 255, 0.8);
+	border-left: 1px solid rgba(255, 255, 255, 0.4);
+	font-size: 1.5rem;
+	padding-right: 2rem;
+	padding-left: 4rem;
+}
+.select_text span{
+	font-size: 1.5rem;
+}
 
-.link {
-	margin-bottom: 2rem;
+.color a{
+	color: rgba(255, 255, 255, 0.5);
 }
 
 .slider {
@@ -667,11 +676,10 @@ header {
 
 .select {
 	width: 35%;
-	float: left;
+	padding-left: 9rem;
 }
 
 .footer_bot {
-	padding: 4rem 0;
 	position: relative;
 	background-color: #1f222b;
 }
@@ -703,7 +711,7 @@ header {
 
 .link li a {
 	color: rgba(255, 255, 255, 0.5);
-	font-size: 1.6rem;
+	font-size: 1.65rem;
 }
 
 .link li::before {
