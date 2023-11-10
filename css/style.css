@@ -709,7 +709,7 @@ header {
 
 .link li {
 	float: left;
-	padding-right: 2.4rem;
+	padding-right: 2rem;
 	position: relative;
 }
 
@@ -764,7 +764,6 @@ header {
 	top: 50%;
 	right: auto;
 	bottom: auto;
-	left: 9;
 	transform: rotate(-135deg);
 	-webkit-transform: rotate(-135deg);
 }
