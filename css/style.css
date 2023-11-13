@@ -4,6 +4,7 @@ html {
 
 li {
 	list-style: none;
+	z-index: 10;
 }
 
 .flexbox {
@@ -34,6 +35,7 @@ header {
 
 .headerbox>.inner {
 	height: 70px;
+	border-bottom: 1px solid #f0f0f0;
 }
 
 .innerbox {
@@ -88,7 +90,7 @@ header {
 .search {
 	display: flex;
 	width: 100px;
-	height: 100px;
+	height: 66px;
 	align-items: center;
 	justify-content: space-around;
 	position: relative;
@@ -107,7 +109,7 @@ header {
 .gnb {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	align-items: stretch;
 }
 
 .gnb_li {
@@ -857,3 +859,30 @@ header {
 .footer_inner p {
 	color: rgba(255, 255, 255, 0.5);
 }
+
+/* nav */
+nav{background: #fff; height: 50px; position: relative;}
+
+.gnb li a{
+	padding-right: 12rem;
+}
+.depth2 li a{
+	display: block;
+	padding: 0.6rem 2rem;
+	font-size: 1.6rem;
+	word-break: break-all;
+	background: #ebebeb;
+	color: #222;
+}
+.gnb{display: flex; justify-content: center;}
+/* .gnb li{flex-basis: 25%;} */
+.gnb a{display: block; padding-right: 2rem; color: #000;}
+.depth2{display: flex; flex-flow: row wrap;}/* 방향,줄바꿈 */
+.depth2 a{opacity: 0; transition: all .5s; }
+
+/* hover */
+.gnb>li:hover .w100{height: auto; overflow: visible;}
+.gnb>li:hover .w100 a{opacity: 1;}
+
+.inner{width: 100%; max-width: 1400px; margin: auto;}
+.w100{overflow: hidden; background: #fff; width: 100%; height: 0; transition: all 0.5s; position: absolute; top: 50px; left: 0;}
